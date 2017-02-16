@@ -37,7 +37,8 @@ ul li {
   display: block;
   border-right: 3px solid rgb(46, 153, 205);
   width: 20%;
-  padding: 1em;
+  padding-top: 1em;
+  padding-left: 1.4em;
   margin: 0;
   float: left;
   box-sizing: border-box;
