@@ -61,7 +61,13 @@ height: 1.3em;
 
 .info {
 border: none;
+color: rgb(46, 153, 205);
 }
+
+.info h1 {
+  float: left;
+}
+
 
 /*li.fa.fa-square:hover > .dropdown {
   opacity: 1;
