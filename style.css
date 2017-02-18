@@ -96,8 +96,8 @@ width: 1.4em;
 height: 1.3em;
 }
 
-.square {
-  padding: .9em .8em 1.4em 1.2em;
+li.square {
+  padding: .9em .8em 1.3em 1.2em;
 }
 
 section.info {
