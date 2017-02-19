@@ -32,6 +32,12 @@ section img {
   border-left: 2.5px solid rgb(46, 153, 205);
   border-bottom: 2.5px solid rgb(46, 153, 205);
   background-color: rgb(255,255,255);
+  color: rgb(46, 153, 205);
+}
+
+.fa-refresh:hover {
+  color: rgb(255,255,255);
+  background-color: rgb(46, 153, 205);
 }
 
 .primary {
@@ -40,7 +46,7 @@ section img {
   border-top: 2.5px solid rgb(46, 153, 205);
 }
 
- .primary > li {
+.primary > li {
   display: block;
   border-right: 2.5px solid rgb(46, 153, 205);
   width: 20%;
@@ -59,25 +65,47 @@ section img {
   background-color: rgb(46, 153, 205);
 }
 
-
 .sizepicker:hover .size {
   opacity: 1;
 }
 
 ul.size {
   position: absolute;
-  width: 2em;
-  top: -98px;
+  top: -8.5em;
   left: 0;
-  height: 95px;
   border: 2.5px solid rgb(46, 153, 205);
   background-color: rgb(255,255,255);
   opacity: 0;
+  padding: 1em;
+  transition: height 1.5s linear;
 }
 
 .size li {
   display: block;
   color: rgb(46, 153, 205);
+}
+
+ul.size > li.fa-hand-rock-o {
+  font-size: 1.6em;
+  padding: .1em;
+}
+
+ul.size > li.fa-hand-paper-o {
+  font-size: 1.4em;
+  padding: .1em;
+  padding-left: .1em;
+}
+
+ul.size > li.fa-hand-scissors-o {
+  font-size: 1.2em;
+  padding: .1em;
+  padding-left: .2em;
+}
+
+ul.size > li.fa-hand-spock-o {
+  font-size: 1em;
+  padding: .1em;
+  padding-left: .4em;
 }
 
 /*ul .XL:hover {
@@ -100,6 +128,7 @@ li.square {
   padding: .9em .8em 1.3em 1.2em;
 }
 
+
 section.info {
   margin-top: .7em;
 }
@@ -107,7 +136,6 @@ section.info {
 .info {
 border: none;
 color: rgb(46, 153, 205);
-
 }
 
 .info h1 {
