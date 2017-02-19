@@ -71,12 +71,12 @@ section img {
 
 ul.size {
   position: absolute;
-  top: -8.5em;
-  left: 0;
+  top: -10.5em;
+  left: -0.5em;
   border: 2.5px solid rgb(46, 153, 205);
   background-color: rgb(255,255,255);
   opacity: 0;
-  padding: 1em;
+  padding: 1em 1.2em 1em 1.2em;
   transition: height 1.5s linear;
 }
 
@@ -86,24 +86,24 @@ ul.size {
 }
 
 ul.size > li.fa-hand-rock-o {
-  font-size: 1.6em;
+  font-size: 2.2em;
   padding: .1em;
 }
 
 ul.size > li.fa-hand-paper-o {
-  font-size: 1.4em;
+  font-size: 1.9em;
   padding: .1em;
   padding-left: .1em;
 }
 
 ul.size > li.fa-hand-scissors-o {
-  font-size: 1.2em;
+  font-size: 1.6em;
   padding: .1em;
   padding-left: .2em;
 }
 
 ul.size > li.fa-hand-spock-o {
-  font-size: 1em;
+  font-size: 1.3em;
   padding: .1em;
   padding-left: .4em;
 }
