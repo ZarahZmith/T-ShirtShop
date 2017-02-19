@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i" rel="stylesheet");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
+main {
+  float: left;
+  margin: 1em;
+}
+
 body {
   font-family: Roboto, sans-serif;
 }
@@ -161,8 +166,8 @@ li.squareicon {
 
 ul.square {
   position: absolute;
-  top: -4.7em;
-  left: -0.7em;
+  top: -4.1em;
+  left: -0.4em;
   width: 4em;
   border: 2.5px solid rgb(46, 153, 205);
   background-color: rgb(255,255,255);
