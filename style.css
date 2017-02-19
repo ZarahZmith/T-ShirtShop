@@ -108,14 +108,13 @@ ul.size > li.fa-hand-spock-o {
   padding-left: .4em;
 }
 
-/*ul .XL:hover {
-  position: absolute;
-  height: 2em;
-  transition: height 1.5s linear;
-}*/
-
 li.fa.fa-shopping-cart {
   border-right: 0;
+}
+
+.square li {
+  display: block;
+  color: rgb(46, 153, 205);
 }
 
 .bluesquare {
@@ -124,8 +123,68 @@ width: 1.4em;
 height: 1.3em;
 }
 
-li.square {
+.bluesquare1 {
+background-color: rgb(129, 188, 229);
+width: 1.4em;
+height: 1.3em;
+margin: .2em;
+}
+
+.pinksquare {
+background-color: rgb(212, 130, 170);
+width: 1.4em;
+height: 1.3em;
+margin: .2em;
+}
+
+.orangesquare {
+background-color: rgb(220, 176, 125);
+width: 1.4em;
+height: 1.3em;
+margin: .2em;
+}
+
+.greensquare {
+background-color: rgb(138, 227, 150);
+width: 1.4em;
+height: 1.3em;
+margin: .2em;
+}
+
+li.squareicon {
   padding: .9em .8em 1.3em 1.2em;
+}
+
+.squareicon:hover .square {
+  opacity: 1;
+}
+
+ul.square {
+  position: absolute;
+  top: -4.7em;
+  left: -0.7em;
+  width: 4em;
+  border: 2.5px solid rgb(46, 153, 205);
+  background-color: rgb(255,255,255);
+  opacity: 0;
+  padding: .2em;
+  transition: height 1.5s linear;
+}
+
+li.bluesquare1 {
+  float: left;
+}
+
+li.pinksquare{
+  float: right;
+}
+
+li.orangesquare {
+  float: left;
+}
+
+li.greensquare {
+  float: right;
 }
 
 
