@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i" rel="stylesheet");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
+body {
+  padding-left: 8%;
+}
+
 main {
   float: left;
   margin: 1em;
@@ -72,11 +76,13 @@ section img {
 
 .sizepicker:hover .size {
   opacity: 1;
+  top: -10.55em;
+  transition: opacity .3s linear, top .3s linear;
 }
 
 ul.size {
   position: absolute;
-  top: -10.5em;
+  top: -12em;
   left: -0.5em;
   border: 2.5px solid rgb(46, 153, 205);
   background-color: rgb(255,255,255);
@@ -162,18 +168,19 @@ li.squareicon {
 
 .squareicon:hover .square {
   opacity: 1;
+  top: -4.1em;
+  transition: opacity .3s linear, top .3s linear;
 }
 
 ul.square {
   position: absolute;
-  top: -4.1em;
+  top: -5em;
   left: -0.4em;
   width: 4em;
   border: 2.5px solid rgb(46, 153, 205);
   background-color: rgb(255,255,255);
   opacity: 0;
   padding: .2em;
-  transition: height 1.5s linear;
 }
 
 li.bluesquare1 {
